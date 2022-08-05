@@ -258,8 +258,8 @@
 
     <LinearLayout
         android:id="@+id/tvHotList"
-        android:layout_width="@dimen/vs_0"
-        android:layout_height="@dimen/vs_0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:clipChildren="false"
         android:clipToPadding="false"
         android:orientation="vertical">
