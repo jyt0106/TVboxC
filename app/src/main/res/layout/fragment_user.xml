@@ -257,6 +257,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/tvHotList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:clipChildren="false"
@@ -272,43 +273,11 @@
             android:layout_height="@dimen/vs_50"
             android:drawablePadding="@dimen/vs_10"
             android:gravity="center"
-            android:text="历史记录"
+            android:text="首页推荐"
             android:textColor="@android:color/white"
             android:textSize="@dimen/ts_34"
             android:textStyle="bold" />
 
-        <Space
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
-
-        <TextView
-            android:id="@+id/tvDelTip"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/vs_50"
-            android:layout_gravity="center"
-            android:layout_marginRight="@dimen/vs_10"
-            android:focusable="false"
-            android:focusableInTouchMode="false"
-            android:gravity="center"
-            android:text="确定键删除当前选中记录"
-            android:textColor="@android:color/white"
-            android:textSize="@dimen/ts_24"
-            android:visibility="gone" />
-
-        <TextView
-            android:id="@+id/tvDel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:background="@drawable/shape_user_focus"
-            android:focusable="false"
-            android:focusableInTouchMode="false"
-            android:gravity="center"
-            android:padding="@dimen/vs_10"
-            android:text="删除记录"
-            android:textColor="@android:color/white"
-            android:textSize="@dimen/ts_24" />
     </LinearLayout>
 
     <com.owen.tvrecyclerview.widget.TvRecyclerView
