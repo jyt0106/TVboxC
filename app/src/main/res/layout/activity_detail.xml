@@ -146,7 +146,7 @@
                     android:lineSpacingMultiplier="1.2"
                     android:maxLines="5"
                     android:textColor="@color/color_CCFFFFFF"
-                    android:textSize="@dimen/ts_12" />
+                    android:textSize="@dimen/ts_16" />
 
                 <Space
                     android:layout_width="wrap_content"
